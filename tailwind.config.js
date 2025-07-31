@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // The double quotes are only needed here for this special font which is imported from Google Fonts
+        title: ['"Pacifico"', 'cursive']
+      }
+    },
   },
   plugins: [],
 };
